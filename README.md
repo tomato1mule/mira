@@ -21,10 +21,12 @@ conda create --name mira python=3.7 -y
 conda activate mira
 sudo apt-get update
 sudo apt-get -y install gcc libgl1-mesa-dev
-git clone git@github.com:yenchenlin/mira.git
+# git clone git@github.com:yenchenlin/mira.git
+git clone https://github.com/tomato1mule/mira.git
 cd ~/mira
 pip install -r requirements.txt
-python setup.py install --user
+# python setup.py install --user
+pip install -e .
 ```
 
 **Step 2.** Install [orthographic-ngp](https://github.com/yenchenlin/orthographic-ngp/) and its dependencies.
