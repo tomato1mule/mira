@@ -7,9 +7,10 @@ opencv-python>=4.1.2.30
 meshcat>=0.0.18
 scipy==1.4.1
 scikit-image>=0.17.2
-tensorflow==2.8.0
+# tensorflow==2.8.0
 tensorflow-addons
 tensorflow_hub
 transforms3d==0.3.1
 commentjson
 pyquaternion
+jupyter
